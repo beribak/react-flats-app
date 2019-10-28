@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FlatsList from './flats_list';
-import FlatsList from './flat';
+import flats from '../../data/flats';
 
 class App extends Component {
 
@@ -17,7 +17,7 @@ class App extends Component {
     return(
       <div>
         <div className="left">
-          <h1>Hello</h1>
+          <FlatsList flats={flats} />
         </div>
         <div className="right">
           <h1>Hello</h1>

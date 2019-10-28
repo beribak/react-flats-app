@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FlatsList from './flat';
+import Flat from './flat';
 
 class FlatsList extends Component {
 
@@ -15,7 +15,7 @@ class FlatsList extends Component {
 
     return(
       <div>
-
+        {this.props.flats.map (gif => <h1>{gif.name}</h1>)}
       </div>
     );
   }
