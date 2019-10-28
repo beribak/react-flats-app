@@ -46,6 +46,38 @@ const flats = [
     priceCurrency: "EUR",
     lat: 48.827855,
     lng: 2.350774
+  },
+  {
+    name: "Super 6m2 in trendy neighborhood!",
+    imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat3.jpg",
+    price: 150,
+    priceCurrency: "EUR",
+    lat: 48.885312,
+    lng: 2.341225
+  },
+  {
+    name: "Splenide terrasse vue imprenable",
+    imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat4.jpg",
+    price: 115,
+    priceCurrency: "EUR",
+    lat: 48.88184,
+    lng: 2.343371
+  },
+  {
+    name: "Sperbe vue à 2 min du Sacré Coeur",
+    imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat5.jpg",
+    price: 135,
+    priceCurrency: "EUR",
+    lat: 48.888839,
+    lng: 2.339208
+  },
+  {
+    name: "Boemian and Chic in Paris",
+    imageUrl: "https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/images/flat6.jpg",
+    price: 90,
+    priceCurrency: "EUR",
+    lat: 48.827855,
+    lng: 2.350774
   }
 ];
 
