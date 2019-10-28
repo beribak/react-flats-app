@@ -15,7 +15,7 @@ class FlatsList extends Component {
 
     return(
       <div className="flats-list">
-        {this.props.flats.map (gif => <Flat name={gif.name} key={gif.name} src={gif.imageUrl} />)}
+        {this.props.flats.map (gif => <Flat name={gif.name} key={gif.name} src={gif.imageUrl} price={gif.price} />)}
       </div>
     );
   }
