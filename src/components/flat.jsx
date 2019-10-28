@@ -13,8 +13,9 @@ class Flat extends Component {
   render() {
 
     return(
-      <div>
-
+      <div className="card">
+        <div><img src={this.props.src} className="image" /></div>
+        <h4>{this.props.name}</h4>
       </div>
     );
   }

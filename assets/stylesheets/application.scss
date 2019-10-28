@@ -14,12 +14,25 @@ body {
   height: 100vh;
 }
 
-.left{
+.left {
   flex: 0 0 70%;
   background-color: gray;
 }
 
-.right{
+.right {
   flex: 0 0 30%;
   background-color: blue;
+}
+
+.card {
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+.flats-list {
+  column-count: 3;
+  padding: 20px;
 }
