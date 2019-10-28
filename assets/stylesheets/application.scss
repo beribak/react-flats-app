@@ -20,7 +20,7 @@ body {
   overflow: auto;
 
   .flats-list {
-    column-count: 3;
+    column-count: 2;
     padding: 20px 90px;
   }
 }
@@ -32,10 +32,12 @@ body {
 
 .card {
   width: 17em;
+  height: 150px;
+  background-size: cover;
 }
 
 .image {
-  height: 150px;
-  width: 15em;
+  height: 190px;
+  // width: 30em;
   margin-top: 20px;
-}
+  }
