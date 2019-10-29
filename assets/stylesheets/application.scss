@@ -15,8 +15,8 @@ body {
 }
 
 .left {
-  flex: 0 0 70%;
-  background-color: rgba(0, 0, 0, 0.1);
+  width: 70%;
+  // background-color: rgba(0, 0, 0, 0.1);
   // overflow: auto;
   padding: auto;
   // align: center;
@@ -32,8 +32,12 @@ body {
 }
 
 .right {
-  flex: 0 0 30%;
   background-color: blue;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 30%;
+  height: 100%;
 }
 
 .card {
@@ -47,6 +51,11 @@ body {
   color: white;
   position: relative;
 
+  &.active {
+    border: 10px solid red;
+  }
+
+
   .name {
     position: absolute;
     bottom: 10px;
@@ -58,6 +67,16 @@ body {
     top: 10px;
     left: 10px;
   }
+}
+
+.card:hover {
+  opacity: 0.8;
+  font-size: 30px;
+
+  .name{
+    font-size: 24px;
+  }
+  // color: black;
 }
 
 .image {
