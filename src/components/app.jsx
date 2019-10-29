@@ -11,8 +11,8 @@ class App extends Component {
 
     this.state = {
       selectedFlat: {
-        lng: 43,
-        lat: 43
+        lng: flats[0].lng,
+        lat: flats[0].lat
       }
     };
   }
@@ -24,6 +24,7 @@ class App extends Component {
         lat: lat
       }
     });
+  }
 
   render() {
 
@@ -33,7 +34,7 @@ class App extends Component {
           <FlatsList flats={flats} selectFlat={this.selectFlat} />
         </div>
         <div className="right">
-          <GoogleMapReact defaultCenter={{lng: 43, lat: 42.2}} defaultZoom={12} >
+          <GoogleMapReact defaultCenter={this.state.selectedFlat} defaultZoom={11} >
             <Marker lng={this.state.selectedFlat.lng} lat={this.state.selectedFlat.lat} />
           </GoogleMapReact>
         </div>
